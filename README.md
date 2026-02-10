@@ -1,35 +1,53 @@
-# 🛡️ SentinelNet - Para vários Estados
+# Sentinela Automação 24hrs
 
-O **SentinelNet** é um launcher de monitoramento de rede e unidades desenvolvido para garantir a alta disponibilidade de sistemas em regiões distribuídas. O foco do projeto é a **auto-recuperação (Self-Healing)** e a comunicação ágil com equipes de TI.
+O **Sentinela Automação 24hrs** é uma central de comando e monitoramento de infraestrutura em larga escala, projetada para garantir a visibilidade total de ecossistemas corporativos complexos. O sistema atua como uma camada superior de monitoramento, sendo totalmente flexível e compatível com ativos desenvolvidos em qualquer linguagem de programação ou arquitetura de rede.
 
-## Funcionalidades
-* **Monitoramento em Tempo Real:** Interface intuitiva em modo Dark para acompanhamento de múltiplas unidades.
-* **Protocolo de Auto-Recuperação:** O sistema tenta realizar reparos automáticos via software antes de escalar o problema.
-* **Alertas Inteligentes via Telegram:** * Notificação de reparo bem-sucedido (sem necessidade de deslocamento).
-  * Alerta de queda física com botões interativos para a equipe técnica.
-* **Interface Moderna:** Construído com `CustomTkinter` para uma experiência de usuário (UX) premium.
+##  Objetivo Principal
 
-## Tecnologias Utilizadas
-* Python 3.14
-* CustomTkinter (Interface Gráfica)
-* Requests (Integração com API do Telegram)
-* Threading (Processamento paralelo para monitoramento sem travamentos)
+O foco central do projeto é a **soberania operacional**. O Sentinela foi concebido para ser o cérebro da empresa, monitorando não apenas softwares isolados, mas toda a malha tecnológica que sustenta o negócio. Através de uma interface de baixa latência e integração profunda com protocolos de comunicação remota, o sistema permite o controle de milhares de unidades geográficas simultaneamente.
 
-## Configuração do Bot (Telegram)
 
-Para que o **SentinelNet** envie alertas para o seu celular, siga os passos abaixo:
+##  Diferenciais Estratégicos
 
-1. **Criar o Bot:**
-   - Procure o [@BotFather](https://t.me/botfather) no Telegram.
-   - Digite `/newbot` e siga as instruções para dar um nome ao seu robô.
-   - O BotFather enviará um **API TOKEN**. Guarde-o.
+###  Interoperabilidade Total (Agnóstico a Linguagem)
+O sistema é capaz de monitorar ativos independentemente da tecnologia em que foram construídos (Java, C#, Python, PHP, Node.js, Go, etc). A inserção é flexível e abrange:
+* **Nível de Sistema:** Monitoramento de serviços, processos e consumo de hardware.
+* **Nível de Rede:** Verificação de integridade de bancos de dados, portas de comunicação e latência.
+* **Nível Logístico:** Sincronização com bases de dados para mapeamento de unidades físicas em tempo real.
 
-2. **Obter seu ID de Usuário:**
-   - Procure o [@userinfobot](https://t.me/userinfobot) no Telegram.
-   - Envie qualquer mensagem para ele e ele responderá com o seu `Id`.
+###  Visão em Grande Escala
+Projetado para o cenário corporativo brasileiro, organizando a infraestrutura de forma hierárquica:
+1. **País:** Visão macro da saúde da operação nacional.
+2. **Estados/Cidades:** Segmentação regional para isolamento de falhas geográficas.
+3. **Unidades:** Supervisão individual de cada planta, loja ou servidor.
 
-3. **Configurar o Script:**
-   - No arquivo substitua as variáveis abaixo pelos dados que você obteve:
-   ```python
-   self.token = "SEU_TOKEN_AQUI"
-   self.chat_id = "SEU_ID_AQUI"
+
+##  Funcionalidades Principais
+
+| Função | Descrição |
+| :--- | :--- |
+| **Painel de Controle** | Interface gráfica avançada para supervisão humana contínua 24/7. |
+| **Alertas Inteligentes** | Integração via API do Telegram com diagnósticos técnicos detalhados. |
+| **Intervenção Remota** | Botões de ação direta nas notificações para reativação imediata de sistemas. |
+| **Autossuficiência** | Motor interno que instala dependências e gerencia banco de dados local (JSON). |
+| **Trava de Segurança** | Sistema de *Lockdown* que impede que falhas críticas sejam mascaradas por instabilidades momentâneas. |
+
+
+##  Resiliência e Segurança
+
+O Sentinela Automação 24hrs utiliza um **Motor Assíncrono** (Multithreading). Isso significa que o monitoramento nunca para e a interface nunca trava, mesmo processando uma carga massiva de dados de milhares de unidades simultaneamente.
+
+* **Auditoria:** Geração de logs detalhados para análise de falhas e SLAs.
+* **Operação Offline:** Em caso de queda de APIs externas, o sistema utiliza o cache local para manter a estrutura de monitoramento ativa.
+
+
+## 
+Como o Sistema Opera
+
+1. **Sincronização:** Mapeia a infraestrutura completa da empresa.
+2. **Vigilância:** Executa varreduras constantes e silenciosas em todos os módulos.
+3. **Notificação:** Dispara alertas críticos apenas quando a intervenção humana ou técnica é necessária.
+4. **Recuperação:** Fornece as ferramentas necessárias para o retorno rápido da operação ao estado estável.
+
+---
+> **Sentinela Automação 24hrs:** A evolução do monitoramento passivo para a automação ativa.
